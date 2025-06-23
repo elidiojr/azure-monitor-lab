@@ -48,20 +48,6 @@ Aqui estão documentadas as principais práticas de **monitoramento**, **alertas
 - Região
 - Associação com as VMs
 
-### ✅ Configuração de Alertas para Eventos Críticos
-
-Exemplo: **Alerta para detectar exclusão de VM**
-
-- **Fonte:** Azure Activity Log
-- **Condição:** Evento "Delete Virtual Machine"
-- **Ação:** Envio de e-mail através de um Action Group
-
-**Detalhes do Alerta Criado:**
-
-- **Nome:** `Alert_VM_Deletion`
-- **Condição:** Quando uma VM for excluída
-- **Ação:** Envio de notificação por e-mail ao administrador
-
 ### ✅ Teste dos Alertas
 
 - Exclusão de uma VM de teste
@@ -71,6 +57,8 @@ Exemplo: **Alerta para detectar exclusão de VM**
 
 - Acesso ao **Log Analytics**
 - Execução de consultas utilizando **KQL (Kusto Query Language)**
+
+---
 
 ## 💡 Dicas Importantes
 
@@ -85,6 +73,8 @@ Exemplo: **Alerta para detectar exclusão de VM**
 - Configurar **retenção de logs** adequada ao seu cenário, evitando acúmulo de dados desnecessários.
 - Integrar o Azure Monitor com ferramentas externas (como **Microsoft Teams**, **Slack** ou **ITSM**) usando Webhooks ou Logic Apps.
 
+---
+
 ## 🔗 Links Úteis
 
 - [Azure Monitor Overview](https://learn.microsoft.com/azure/azure-monitor/overview)
@@ -94,6 +84,8 @@ Exemplo: **Alerta para detectar exclusão de VM**
 - [Documentação Azure CLI](https://learn.microsoft.com/cli/azure/monitor)
 - [Azure Resource Manager (ARM) Templates](https://learn.microsoft.com/azure/azure-resource-manager/templates/overview)
 - [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/)
+
+---
 
 ## ✅ Status do Projeto
 
