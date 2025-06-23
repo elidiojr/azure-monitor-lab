@@ -92,8 +92,5 @@ Aqui estão documentadas as principais práticas de **monitoramento**, **alertas
 | Item                           | Status      |
 |--------------------------------|-------------|
 | Curso assistido                | ✅ Concluído |
-| Laboratório executado          | ✅ Concluído |
-| Configuração de monitoramento  | ✅ Concluída |
-| Testes de alertas              | ✅ Realizados |
 | Documentação criada            | ✅ Concluída |
 | Repositório público no GitHub | ✅ Concluído |
